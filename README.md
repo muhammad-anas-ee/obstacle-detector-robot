@@ -6,9 +6,8 @@ An autonomous obstacle-avoiding robot built with **Arduino Uno**, **HC-SR04 Ultr
 
 ## 📸 Project Demo
 
-![Obstacle Detection Robot - Front View](images/car_photo_1.jpg)
-![Obstacle Detection Robot - Side View](images/car_photo_2.jpg)
-
+![Obstacle Detection Robot - Front View](car_photo_1.png)
+![Obstacle Detection Robot - Side View](car_photo_2.png)
 ---
 
 ## ⚙️ How It Works
