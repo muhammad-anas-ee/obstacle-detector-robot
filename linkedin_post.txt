@@ -1,0 +1,42 @@
+🚗 Built an Obstacle Detection Robot from Scratch — Here's What I Learned
+
+During my 1st year at FAST-NUCES (CFD Campus), our team built a fully autonomous obstacle-avoiding robot as part of our Digital Logic Design Lab project — and it actually worked! 🎉
+
+Here's a quick breakdown of what we built and how:
+
+🔧 What it does:
+The robot autonomously navigates its environment by detecting obstacles using an HC-SR04 ultrasonic sensor mounted on a servo motor. It scans left, center, and right, calculates distances in real time, and decides whether to move forward, turn left, turn right, or reverse — all without any human input.
+
+⚙️ Tech Stack:
+• Arduino Uno (main controller)
+• HC-SR04 Ultrasonic Sensor (obstacle detection)
+• Servo Motor (180° scanning)
+• Motor Driver Shield L293D (motor control)
+• 4x TT Gear Motors + wheels
+• 18650 Li-ion batteries (power supply)
+• Acrylic sheet chassis
+
+🧠 Core Logic:
+Distance = (Echo Time × Speed of Sound) / 2
+
+If distance < 20cm → stop → scan left & right → turn toward the clearer side
+If both sides blocked → reverse → turn right
+
+📦 Total Build Cost: ~6,060 PKR (~$21 USD)
+A fully functional autonomous robot for the price of a pizza. 🍕
+
+💡 What I learned:
+✅ Real-world sensor integration with microcontrollers
+✅ PWM-based motor speed control
+✅ Servo-based dynamic scanning for improved detection range
+✅ Debugging hardware + software simultaneously (the real skill!)
+✅ Cost-effective embedded system design
+
+🔗 Full source code + documentation available on GitHub:
+[GitHub Repository Link]
+
+This project gave me hands-on experience in embedded systems, circuit design, and Arduino programming — skills I'm now building on through my Electronics & Circuit Design specialization at FAST-NUCES.
+
+If you're a student thinking about starting with robotics — just start. Low cost, high learning. 💪
+
+#Arduino #Robotics #EmbeddedSystems #ElectricalEngineering #FASTNUCES #ObstacleDetection #StudentProject #Electronics #Maker #Pakistan
